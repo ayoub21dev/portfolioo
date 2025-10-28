@@ -3,10 +3,16 @@
     "name": "Ayoub jalyta",
     "title": "Full Stack Developer",
     "shortBio": "I'm a full stack developer with a passion for crafting beautiful and functional web experiences.",
-    "profileImage": "/images/profile-photo.jpg",
+    "profileImage": "/profile.png",
     "socials": [
-      { "name": "github", "url": "https://github.com" },
-      { "name": "linkedin", "url": "https://linkedin.com" }
+      {
+        "name": "github",
+        "url": "https://github.com/ayoub21dev"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com"
+      }
     ]
   },
   "aboutMe": {
@@ -20,7 +26,11 @@
       "title": "Project Nebula",
       "description": "A conceptual design for a futuristic music streaming service.",
       "imageUrl": "/projects/project-nebula.jpg",
-      "tags": ["HTML5", "CSS3", "Grid"],
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Grid"
+      ],
       "liveUrl": "#",
       "githubUrl": "#"
     },
@@ -28,7 +38,10 @@
       "title": "Cyber Dashboard",
       "description": "An analytics dashboard with a dark, cyberpunk-inspired theme.",
       "imageUrl": "/projects/cyber-dashboard.jpg",
-      "tags": ["CSS", "Flexbox"],
+      "tags": [
+        "CSS",
+        "Flexbox"
+      ],
       "liveUrl": "#",
       "githubUrl": "#"
     },
@@ -36,7 +49,12 @@
       "title": "Data Visualization Dashboard",
       "description": "A dynamic dashboard for visualizing complex datasets using D3.js and Recharts, with interactive charts and graphs.",
       "imageUrl": "/projects/data-visualization-dashboard.jpg",
-      "tags": ["React", "D3.js", "Recharts", "TypeScript"],
+      "tags": [
+        "React",
+        "D3.js",
+        "Recharts",
+        "TypeScript"
+      ],
       "liveUrl": "#",
       "githubUrl": "#"
     },
@@ -44,19 +62,56 @@
       "title": "Serverless Task Manager",
       "description": "A task management app built on a serverless architecture, featuring user authentication and real-time updates.",
       "imageUrl": "/projects/serverless-task-manager.jpg",
-      "tags": ["Next.js", "AWS Lambda", "DynamoDB", "Auth0"],
+      "tags": [
+        "Next.js",
+        "AWS Lambda",
+        "DynamoDB",
+        "Auth0"
+      ],
       "liveUrl": "#",
       "githubUrl": "#"
     }
   ],
   "skills": [
-    { "name": "HTML", "icon": "html", "category": "Frontend" },
-    { "name": "CSS", "icon": "css", "category": "Frontend" },
-    { "name": "JavaScript", "icon": "javascript", "category": "Frontend" },
-    { "name": "React", "icon": "react", "category": "Frontend" },
-    { "name": "Tailwind CSS", "icon": "tailwind", "category": "Frontend" },
-    { "name": "PHP", "icon": "php", "category": "Backend & Tools" },
-    { "name": "Laravel", "icon": "laravel", "category": "Backend & Tools" },
-    { "name": "Linux", "icon": "linux", "category": "Backend & Tools" }
+    {
+      "name": "HTML",
+      "icon": "html",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS",
+      "icon": "css",
+      "category": "Frontend"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "javascript",
+      "category": "Frontend"
+    },
+    {
+      "name": "React",
+      "icon": "react",
+      "category": "Frontend"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "tailwind",
+      "category": "Frontend"
+    },
+    {
+      "name": "PHP",
+      "icon": "php",
+      "category": "Backend & Tools"
+    },
+    {
+      "name": "Laravel",
+      "icon": "laravel",
+      "category": "Backend & Tools"
+    },
+    {
+      "name": "Linux",
+      "icon": "linux",
+      "category": "Backend & Tools"
+    }
   ]
 }
