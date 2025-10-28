@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate, isActive, personalInfo }) => {
                 <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-900 rounded-2xl transform -rotate-6"></div>
                 <img
                   className="relative w-full h-full object-cover rounded-2xl shadow-2xl border-4 border-slate-800"
-                  src={personalInfo.profileImage}
+                  src="/profile.png"
                   alt={`Profile portrait of ${personalInfo.name}`}
                   loading="lazy"
                 />
