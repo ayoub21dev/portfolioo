@@ -31,7 +31,7 @@ const About: React.FC<AboutProps> = ({ isActive, personalInfo, aboutMe }) => {
                         <img
                             // Adjusted image size to scale better
                             className="rounded-full w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-60 lg:h-60 object-cover shadow-2xl border-4 border-slate-800"
-                            src={personalInfo.profileImage}
+                            src="/profile.png"
                             alt="Profile portrait"
                         />
                     </div>

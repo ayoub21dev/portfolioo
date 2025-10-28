@@ -17,11 +17,24 @@
   },
   "aboutMe": {
     "paragraphs": [
-      "Hello! I'm a passionate Senior Frontend Engineer with deep expertise in creating dynamic, responsive, and user-friendly web applications using React and TypeScript. My specialization lies in integrating powerful AI services like the Gemini API to build intelligent and interactive user experiences.",
-      "With a strong eye for UI/UX design and a commitment to writing clean, maintainable code, I strive to bridge the gap between complex technology and beautiful, intuitive interfaces. I am constantly exploring new technologies to push the boundaries of what's possible on the web."
+      " I'm a passionate Full Stack Developer specializing in Laravel, PHP, and React. I love building modern, scalable, and user-focused web applications from start to finish — from backend architecture to sleek, responsive frontends.",
+      "I’m driven by clean code, creative problem-solving, and crafting seamless user experiences. I also enjoy learning new technologies and integrating smart tools to make web applications more efficient and interactive"
     ]
   },
   "projects": [
+    {
+      "title": "Personal Portfolio",
+      "description": "A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations, dynamic content management, and a clean dark theme design.",
+      "imageUrl": "/projects/Portfolio-project.png",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/ayoub21dev/portfolioo"
+    },
     {
       "title": "Project Nebula",
       "description": "A conceptual design for a futuristic music streaming service.",
