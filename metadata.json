@@ -1,0 +1,5 @@
+{
+  "name": "React Professional Portfolio",
+  "description": "A single-page professional portfolio built with React and Tailwind CSS, featuring sections for projects, skills, about me, and a contact form, all in a sleek dark mode.",
+  "requestFramePermissions": []
+}
