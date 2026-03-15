@@ -1,11 +1,12 @@
 import React from 'react';
 import { GithubIcon, LinkedInIcon } from './Icons';
 import Section from './Section';
+import PixelatedText from './PixelatedText';
 import type { PersonalInfo } from '../types';
 
 const socialIcons = {
-    github: GithubIcon,
-    linkedin: LinkedInIcon,
+  github: GithubIcon,
+  linkedin: LinkedInIcon,
 };
 
 interface HeroProps {
@@ -15,7 +16,7 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ onNavigate, isActive, personalInfo }) => {
-  const getTransitionClass = (delay: number) => 
+  const getTransitionClass = (delay: number) =>
     `transition-all duration-700 ease-in-out ${isActive ? `opacity-100 translate-y-0 delay-${delay}` : 'opacity-0 translate-y-10'}`;
 
   return (
@@ -24,7 +25,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate, isActive, personalInfo }) => {
         <div className="h-full w-full flex items-center justify-center flex-grow overflow-y-auto p-4 sm:p-6 lg:p-8">
           {/* Main content layout container using Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-5 items-center justify-center gap-8 lg:gap-12 xl:gap-20 max-w-7xl mx-auto">
-            
+
             {/* Left Column: Image and Social Icons */}
             <div className={`lg:col-span-2 flex flex-col items-center gap-5 ${getTransitionClass(300)}`}>
               <div className="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72">
@@ -38,13 +39,13 @@ const Hero: React.FC<HeroProps> = ({ onNavigate, isActive, personalInfo }) => {
               </div>
               <div className="flex items-center space-x-6">
                 {personalInfo.socials.map(social => {
-                    const Icon = socialIcons[social.name];
-                    if (!Icon) return null;
-                    return (
-                        <a href={social.url} key={social.name} aria-label={`${social.name} Profile`} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
-                            <Icon className="w-8 h-8 xl:w-9 xl:h-9"/>
-                        </a>
-                    )
+                  const Icon = socialIcons[social.name];
+                  if (!Icon) return null;
+                  return (
+                    <a href={social.url} key={social.name} aria-label={`${social.name} Profile`} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
+                      <Icon className="w-8 h-8 xl:w-9 xl:h-9" />
+                    </a>
+                  )
                 })}
               </div>
             </div>
@@ -52,7 +53,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate, isActive, personalInfo }) => {
             {/* Right Column: Text and Buttons */}
             <div className="lg:col-span-3 flex flex-col items-center lg:items-start text-center lg:text-left gap-4">
               <h1 className={`text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight ${getTransitionClass(500)}`}>
-                <span className="gradient-text">{personalInfo.name}</span>
+                <PixelatedText text={personalInfo.name} className="gradient-text" />
               </h1>
               <p className={`text-base sm:text-lg lg:text-xl xl:text-2xl text-slate-300 max-w-lg xl:max-w-2xl ${getTransitionClass(700)}`}>
                 {personalInfo.shortBio}
